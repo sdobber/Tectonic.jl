@@ -6,6 +6,16 @@ os = "macos"
     [[biber_bin.download]]
     sha256 = "675fb93a2d8cfa52533d4b20423bf18ff1b799693466b91e92e115667bb9297d"
     url = "https://github.com/MichaelHatherly/Tectonic.jl/releases/download/2.14%2B1/biber-2.14+1-x86_64-apple-darwin14.tar.gz"
+
+[[biber_bin]]
+arch = "aarch64"
+git-tree-sha1 = "716fcd1bfe883a5a9c5e05b34a62539b9913b917"
+os = "macos"
+
+    [[biber_bin.download]]
+    sha256 = "675fb93a2d8cfa52533d4b20423bf18ff1b799693466b91e92e115667bb9297d"
+    url = "https://github.com/MichaelHatherly/Tectonic.jl/releases/download/2.14%2B1/biber-2.14+1-x86_64-apple-darwin14.tar.gz"
+
 [[biber_bin]]
 arch = "x86_64"
 git-tree-sha1 = "55e62711a9a99b7fdada0d255c157bd10913b7f0"
@@ -15,6 +25,7 @@ os = "linux"
     [[biber_bin.download]]
     sha256 = "5acadb273c686d2e10ba8ce3c587891a627bf509da4f576bb1dc29d3592cbc91"
     url = "https://github.com/MichaelHatherly/Tectonic.jl/releases/download/2.14%2B1/biber-2.14+1-x86_64-linux-gnu.tar.gz"
+
 [[biber_bin]]
 arch = "x86_64"
 git-tree-sha1 = "d62a5f5a7456fd60110bd1cfc392dc6a264422b6"
@@ -33,6 +44,7 @@ os = "linux"
     [[tectonic_bin.download]]
     sha256 = "f9237038511d87e71b2c13e2e54e8a1ccc44b0fe59833b71abc49b6d7b5d30bb"
     url = "https://github.com/MichaelHatherly/Tectonic.jl/releases/download/tectonic-0.8.0%2B1/tectonic-0.8.0+1-x86_64-linux-gnu.tar.gz"
+
 [[tectonic_bin]]
 arch = "x86_64"
 git-tree-sha1 = "1fa5a6a617eb3345cb6baf67f288d9d935954a46"
@@ -41,6 +53,16 @@ os = "macos"
     [[tectonic_bin.download]]
     sha256 = "9e38c8fa133db0e33c75da767ba10e11b5ac433f1dc40a1d418ea6a7659a309b"
     url = "https://github.com/MichaelHatherly/Tectonic.jl/releases/download/tectonic-0.8.0%2B1/tectonic-0.8.0+1-x86_64-apple-darwin14.tar.gz"
+
+[[tectonic_bin]]
+arch = "aarch64"
+git-tree-sha1 = "1fa5a6a617eb3345cb6baf67f288d9d935954a46"
+os = "macos"
+
+    [[tectonic_bin.download]]
+    sha256 = "9e38c8fa133db0e33c75da767ba10e11b5ac433f1dc40a1d418ea6a7659a309b"
+    url = "https://github.com/MichaelHatherly/Tectonic.jl/releases/download/tectonic-0.8.0%2B1/tectonic-0.8.0+1-x86_64-apple-darwin14.tar.gz"
+
 [[tectonic_bin]]
 arch = "x86_64"
 git-tree-sha1 = "ef43d3a84c8db93411aebeef345e5f7f6dbd4a23"
